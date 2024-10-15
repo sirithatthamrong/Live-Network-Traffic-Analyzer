@@ -30,7 +30,7 @@ The **Live Network Traffic Analyzer** is designed to process, enrich, and visual
 3. **Data Store**: Stores time-series data for later querying and visualization.
 4. **Dashboard**: Interactive frontend for data visualization and analytics.
 
-### Usage
+## Usage
 
 1. Run the flow collector to capture traffic.
 2. The data enricher program will augment the traffic data.
