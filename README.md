@@ -9,13 +9,13 @@ The **Live Network Traffic Analyzer** is designed to process, enrich, and visual
 - **Autonomous Systems (AS)** involved in the traffic flow
 - **Traffic Volume** per country and per AS
 
-### Key Features
+## Key Features
 
 - **Flow Enrichment**: Augments NetFlow/IPFIX data with additional metadata such as origin country, destination country, and AS details using publicly available CIDR and AS datasets.
 - **Data Storage**: Time-series database to store enriched flow data, enabling retrospective analysis within a 24-hour period.
 - **Interactive Dashboard**: Provides visual analytics for the user, showing historical traffic statistics, adjustable for specific time ranges.
 
-### Technologies
+## Technologies
 
 - **Programming Language**: Rust (for multithreading efficiency)
 - **Flow Protocols**: NetFlow v5 and IPFIX
@@ -23,7 +23,7 @@ The **Live Network Traffic Analyzer** is designed to process, enrich, and visual
   - IP block to country mapping: [GitHub - country-ip-blocks](https://github.com/herrbischoff/country-ip-blocks)
   - IP to Autonomous System mapping: [IPtoASN](https://iptoasn.com/)
 
-### Project Components
+## Project Components
 
 1. **Flow Collector**: Captures NetFlow/IPFIX data.
 2. **Data Enricher**: Processes flow data to append geographical and AS information.
